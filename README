@@ -1,0 +1,15 @@
+instruction
+in Terminal
+1.bash run-docker-compose.sh
+You're in the docker terminal now.
+2.bash install-python-dependencies.sh
+3.run-flask-api.sh
+The python server is now running.
+4.open postman 
+5.GET http://0.0.0.0:5000/ 
+This should return 'hello stranger!.'
+6.POST http://0.0.0.0:5000/hello/<randomname>
+This should return 'hello <randomname>!.'
+and <randonname> is now saved in data1.db
+
+thank you.
